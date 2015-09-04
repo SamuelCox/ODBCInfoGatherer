@@ -10,9 +10,9 @@ namespace ODBCInfoGatherer
 
     public class ODBC
     {
-        private string Name {get; set;}
-        private string Driver {get; set;}
-        private string Server {get; set;}
+        public string Name {get; private set;}
+        public string Driver {get; private set;}
+        public string Server {get; private set;}
 
         public ODBC(string name, string driver, string server)
         {
